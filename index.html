@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LJ Online Store - Your Favorite Shopping Destination</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <h1>LJ Online Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="cart-container">
+            <button id="cart-button">Cart (<span id="cart-count">0</span>)</button>
+        </div>
+    </header>
+
+    <div class="hero">
+        <h2>Welcome to LJ Online Store</h2>
+        <p>Your one-stop shop for all your needs</p>
+        <p>Delivery at your door-step and pay after receive the product </p>
+    </div>
+
+    <div class="cart-dropdown" id="cart-dropdown">
+        <h3>Your Cart</h3>
+        <div id="cart-items"></div>
+        <p id="cart-total">Total: $0.00</p>
+        <button id="checkout-btn">Checkout</button>
+        <button id="close-cart">Close</button>
+    </div>
+
+    <main>
+        <section class="featured-products">
+            <h2>Featured Products</h2>
+            <div class="product-grid" id="product-grid">
+                <!-- Products will be added by JavaScript -->
+            </div>
+        </section>
+
+        <section class="blog-posts">
+            <h2>Latest News</h2>
+            <article class="blog-post">
+                <h3>New Product Line Coming Soon!</h3>
+                <p>Stay tuned for our exciting new product line launching next month. We're expanding our offerings to better serve you.</p>
+                <a href="#">Read more</a>
+            </article>
+            <article class="blog-post">
+                <h3>Summer Sale - Up to 50% Off!</h3>
+                <p>Don't miss our biggest sale of the year. Huge discounts on selected items for a limited time only.</p>
+                <a href="#">Read more</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>LJ Online Store is committed to providing quality products at affordable prices with excellent customer service.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@ljonlinestore.com</p>
+                <p>Phone: +255 754314647</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 LJ Online Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
