@@ -4,42 +4,42 @@ const products = [
         id: 1,
         name: "Wireless Headphones",
         price: 30000,
-        image: "images/wireless headphone.png",
+        image: "wireless headphone.png",
         description: "High-quality wireless headphones with noise cancellation."
     },
     {
         id: 2,
         name: "Smart Watch",
         price: 40000,
-        image: "images/smartwatch.PNG",
+        image: "smartwatch.PNG",
         description: "Feature-packed smartwatch with fitness tracking, music support and calls."
     },
     {
         id: 3,
         name: "Bluetooth Speaker",
         price: 35000,
-        image: "images/bluetooth speaker.jpg",
+        image: "bluetooth speaker.jpg",
         description: "Portable Bluetooth speaker with great sound quality and strength towards a large space."
     },
     {
         id: 4,
         name: "Laptop Backpack",
         price: 45000,
-        image: "images/laptop backpack.png",
+        image: "laptop backpack.png",
         description: "Durable backpack with laptop compartment and USB charging port."
     },
     {
         id: 5,
         name: "Wireless Mouse",
         price: 20000,
-        image: "images/wireless mouse.png",
+        image: "wireless mouse.png",
         description: "Ergonomic wireless mouse with long battery life."
     },
     {
         id: 6,
         name: "USB-C Hub",
         price: 20000,
-        image: "images/usb hub c.png",
+        image: "usb hub c.png",
         description: "7-in-1 USB-C hub with HDMI, USB, and SD card slots."
     }
 ];
